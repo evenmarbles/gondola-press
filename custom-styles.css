@@ -1,0 +1,39 @@
+.page-template-page-jobs #hero-small.bgimage {
+    background-image: url(assets/masthead-jobs.jpg?tr=w-2000,h-778,f-webp)
+}
+
+@media only screen and (max-width: 600px) {
+    .page-template-page-jobs #hero-small.bgimage {
+        background-image:url(assets//masthead-jobs.jpg?tr=w-815,h-815,f-webp)
+    }
+}
+
+.post-title {
+    text-decoration: none !important;
+    box-shadow: none;
+    color: #55575c !important;
+}
+.post-title:hover {
+    color: #ff7140 !important;
+}
+
+.post__read-more {
+    background: #f36d21;
+    border: 1px solid #f36d21;
+    color: #fff !important;
+    display: inline-block;
+    font-family: 'Akzidenz Grotesk', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 12px 12px 9px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .5s ease-in-out;
+    width: auto;
+}
+.post__read-more:hover {
+    background: #fff;
+    color: #f36d21 !important;
+}
